@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sarawak-luxury-car-backend
+    env: node
+    branch: main
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    autoDeploy: true
